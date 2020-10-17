@@ -1,0 +1,120 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosansmyanmar.css);
+@import url(//fonts.googleapis.com/earlyaccess/tharlon.css);
+@import url(//fonts.googleapis.com/earlyaccess/khyay.css);
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+
+body {
+    --ion-background-color: #2d283e;
+    --ion-text-color: #564f6f;
+    --ion-text-color: #4c495d;
+    --ion-text-color: #802bb1;
+    --ion-text-color: #d1d7e0;
+    --ion-default-font: 'Tharlon', 'Song Myung', sans-serif;
+    line-height: 2;
+}
+
+.text-default {
+    color: #802bb1;
+}
+
+.text-custom {
+    color: #d1d7e0;
+}
+
+.bg-default {
+    background: #802bb1;
+}
+
+.bg-custom {
+    background: #d1d7e0;
+}
+
+.font-default {
+    font-family: 'Tharlon', 'Song Myung', sans-serif;
+    --ion-default-font: 'Tharlon', 'Song Myung', sans-serif;
+    --ion-font-family: 'Tharlon', 'Song Myung', sans-serif;
+    --font-family-sans-serif: 'Tharlon', 'Song Myung', sans-serif;
+    --font-family-monospace: 'Tharlon', 'Song Myung', sans-serif;
+    font-weight: normal;
+}
+
+.font-e {
+    font-family: 'Song Myung', 'Tharlon',serif;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.load-pre {
+    .loading-wrapper {
+        border-radius: 1rem;
+        background: #1f1b2a;
+        color: #d1d7e0;
+        font-family: 'Tharlon', sans-serif;
+    }
+    .loading-spinner {
+        height: 28px;
+
+        ion-spinner {
+            color: #802bb1;
+        }
+    }
+}
+
+.mainSliderWrapper {
+    .swiper-pagination {
+        left: 120px;
+        right: 10px;
+        bottom: 0;
+        width: auto;
+        text-align: right;
+
+        span {
+            margin: 0 3px !important;
+            background: #802bb1;
+            height: 3px;
+            width: 8px;
+            opacity: 1;
+            border-radius: 3px;
+
+            &.swiper-pagination-bullet-active {
+                width: 40px;
+                background: #d1d7e0;
+            }
+        }
+    }
+}
+
+.AutoPlaySwipeableViews {
+    .react-swipeable-view-container {
+        height: 100% !important;
+    }
+}
+
+ion-menu-button {
+    &::part(native) {
+        padding: 0;
+        height: 40px;
+    }
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+.v-player {
+    .video-react-poster {
+        background-size: cover !important;
+        background-position: top center !important;
+    }
+    .video-react-big-play-button.video-react-big-play-button-center {
+        width: 2em !important;
+        height: 2em !important;
+        border: 0 !important;
+        margin-top: -1em !important;
+        margin-left: -1em !important;
+        border-radius: 50% !important;
+        line-height: 2em !important;
+        background: rgba(128,43,177,0.5) !important;
+        color: #fff !important;
+    }
+}
+//////////////////////////////////////////////////////

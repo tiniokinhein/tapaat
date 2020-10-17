@@ -1,0 +1,3 @@
+export const ADD_WATCH = "ADD_WATCH"
+export const REMOVE_WATCH = "REMOVE_WATCH"
+export const DELETE_ALL_WATCH = "DELETE_ALL_WATCH"
